@@ -1,1 +1,51 @@
-//test
+Changelog on 19/2/2020:
+* SystemUI: Add VoLTE switch in tuner
+* SystemUI: Fix VoLTE icon color on Light statusbar
+* SystemUI: Add VoLTE icon for Android 10
+* core: Add support for MicroG
+* SystemUI: Add visualizer feature
+* Add preference for automatic face unlocking [1/2]
+* KeyguardHostView: Dismiss keyguard automatically when face is recognized
+* power: Re-introduce custom charging sounds
+* Add upgrade step to fix system sounds issue
+* base: Use ro.build.date to clear cache dirs on update
+* Revert "InstalledApp: show link to Google Play"
+* settings: Black theme is getting nicer
+* Fix crash when going back from battery it still tries to update battery level even after intent is closed add a null check to avoid that * fixes crash: http$
+* InstalledApp: show link to Google Play
+* InstalledAppDetails: fix refreshing storage summary after force stop
+* fuelgauge: add back battery level animation
+* Port "Battery Usage Alerts" feature from factory images
+* fuelgauge: Fix possible memory leaks
+* fuelgauge: Implement Early Warnings
+* fuelgauge: Use Enhanced Battery Prediction from Turbo
+* Fix ViLTE is not available when WiFi Calling is disabled
+* Settings: remove unneeded collapse limits
+* Settings: Make dashboard search bar round like stock
+* Settings: Improve app info screen
+* Settings: Enable advanced reboot by default
+* Settings: Add lockscreen visualizer toggle
+* Settings: Add face auto unlock toggle
+* aapt: Default to 0 compression ratio
+* Increase Zenmode max hour limit from 12 to 24
+* aapt: add check for untranslatable "string-array"s
+* base: Improve scrolling cache
+* base: telephony: Conditionally ignore RSSNR signal
+* Remove unnecessary videos
+* Add smart pixels
+* ExpandingVolPanel: Show only Music Stream when col
+* Code improvements for expandable volume panel
+* base: Redo expanded volume panel for 10.x
+* Add LINEAGE metrics category
+* Add Restart SystemUI button on Advanced Restart Menu 
+* frameworks: Reset battery stats
+* base: Q seekbar: Tweak it's size
+* Add colors to assistant animation
+* base: Add rounded corners to activity open/close animation
+* SystemUI: use LayerDrawable for status bar bt icon
+* Statusbar battery level device filter: add a few more ones
+* Statusbar bluetooth battery level: improvements
+* keyguard: Actually kill Fancy Colon
+* Disable statusbar time refresh when screen off
+* core: Smoother Upload and Download Animation
+* Other optimizations
