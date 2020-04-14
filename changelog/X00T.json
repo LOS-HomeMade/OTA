@@ -1,3 +1,208 @@
+Changelog on 14/4/2020:
+* Settings: Brand new Settings Homepage Icons! 
+* Settings: Gesture Navigation: Configure the height of back gesture 
+*	(HEAD -> ten) Merge branch 'lineage-17.1' of https://github.com/LineageOS/android_frameworks_base into HEAD
+*	Merge commit 'refs/changes/87/272587/1' of git://github.com/LineageOS/android_frameworks_base into HEAD Change-Id: I23ddfcc2ee4703ca9070eefbec121351b0237a84
+*	AudioService: fix audio mode not reset to MODE_NORMAL
+*	fw/b: Squash of app fw restriction commits
+*	fixup! SystemUI: Bring back good ol' circle battery style
+*	ScreenshotSelector: handle rotation issues
+*	Show QS data saver info dialog until enabled
+*	Merge tag 'android-10.0.0_r33' into lineage-17.1-android-10.0.0_r33
+*	Fix: "Clear All" recent app screen loop bug
+*	SystemUI: Fix showing duplicated charging status
+*	fixup! SystemUI: Allow to disable Lockscreen Media Art [1/3]
+*	(m/ten, lineagex/ten) base: Add vibration patterns from OOS
+*	SystemUI: Fix QS tiles clipping when too many icons in view
+*	VibratorService: Update ONEPLUS_EFFECT_TICK constant value
+*	VibratorService: Fix double click effect with OnePlus vibrator format
+*	VibratorService: update constant values for OnePlus HAL
+*	VibratorService: Fix double click effect with OnePlus vibrator format
+*	VibratorService: update constant values for OnePlus HAL
+*	VibratorService: implement OnePlus proprietary vibrator format
+*	SystemUI: Allow listening for face only on pin/pass view
+*	UninstallAlertDialogFragment: Catch IllegalArgumentException
+*	[3/4] Port face unlock feature
+*	Fix PackageManagerService original-package does not work.
+*	Require unlocking to use battery saver quick tile
+*	Require unlocking to use data saver quick tile
+*	Require unlocking to use cellular quick tile
+*	Require unlocking to use nfc quick tile
+*	Require unlocking to use wifi quick tile
+*	Require unlocking to use bluetooth quick tile
+*	Require unlocking to use airplane mode quick tile
+*	media: Define MPEG-H Encoder Format
+*	audio: add support for extended formats
+*	wm: Use a different execution context to register WFD rotation receiver
+*	wm::DisplayRotation: Changes for WFD and UIBC.
+*	BatteryStats: Update WifiState even if EnergyInfo is invalid
+*	Prevent NPE due to unchecked r.uid
+*	a11y: don't crash the system when illegal component name encounted
+*	Sanitize Bluetooth device names without regex
+*	AlarmManagerService: Fix FWR before boot completed
+*	MediaCodec: Release lock before calling onFrameRendered()
+*	bugfix for noteResetVideoLocked
+*	Visualizer: Ensure multi-thread safety
+*	pm: Add flags for UFS card for encryption in vold
+*	Fix ThumbnailUtils thumbnail pts calculation
+*	Fix wrong variable in AccountManagerService's TokenCache
+*	Make sure the right DND config is used
+*	Fix for recycling key events when sending global button broadcast
+*	Don't include the data dir in zygote library paths.
+*	Modify start/stop condition for mScreenDozeTimer.
+*	services/job: Fix a Jobscheduler bugs
+*	base: rescuce party: check isDisabled on all public API
+*	display: Don't animate screen brightness when turning the screen on
+*	aapt2: disable leak detection
+*	QS: Add and use Bluetooth Panel instead of full Settings
+*	QS: Add and use Mobile Data panel
+*	QS: Use Settings.Panel intents for WiFi and NFC
+*	SystemUI: Add OOS style QS tile layout
+*	Prevent HandlerThread from losing interrupted flag
+*	FODCircleView: update position of icon before show
+*	SystemUI: Blacklist KEY_EDGE_LONG_SWIPE_ACTION for tuner
+*	Automatic translation import
+*	AudioService: communicate audio HAL process pids to native audioserver
+*	DisplayPolicy: Fix watchdog when adding new display
+*	base: Phone ringtone setting for Multi SIM device [1/3]
+*	Audioservice:do not supress music volume adjustment
+*	a11y: don't crash the system when illegal component name encounted
+*	Modify start/stop condition for mScreenDozeTimer.
+*	Allow to hide arrow for back gesture [1/2]
+*	Fix dull AOSP accents with dark theme
+*	base: wrap the size of the navigation handle
+*	SystemUI: fix qs customizer column menu setup
+*	QS columns: Nuke unused count in landscape
+*	base: SystemUI: qs quickbar columns config
+*	lineage: Add some static custom utilities
+*	base: SystemUI: add back QS hide label
+*	base: SystemUI: make QS columns count configurable
+*	overlay: introduce dark blue primary
+*	[1/2] base: expose auto night mode sunset and sunrise values on API
+*	base: fix TwilightService start and initial location update
+*	base: allow for customizing the length of the navigation handle [1/2]
+*	[1/2] base: Gesture Navigation: Configure the height of back gesture
+*	Revert "Always allow back gesture when there are transient bars showing"
+*	SystemUI: change network traffic location to the right
+*	SystemUI: Use VoLTE icon from OOS
+*	base: Add Pixel UI
+*	NightLight: Allow lower temperatures
+*	Don't include the data dir in zygote library paths.
+*	Fix for recycling key events when sending global button broadcast
+*	Make sure the right DND config is used
+*	Fix wrong variable in AccountManagerService's TokenCache
+*	ChooserActivity: remove ugly separator
+*	SystemUI: Remove annoying log caused by aosp bug
+*	Fix ThumbnailUtils thumbnail pts calculation
+*	base: Change default QS rows to 4
+*	DataSwitchTile: grant missing permission
+*	DataSwitchTile: dont show toast on click
+*	DataSwitchTile: collapse notification panel onClick
+*	SystemUI: DataSwitchTile: Use MD2 drawables
+*	base: Introduce DataSwitchTile
+*	Fixes a system crash in VibratorService on x86 hosts
+*	pm: Add flags for UFS card for encryption in vold
+*	Apply proper displayCutout rotation in density 480 dpi and 270 degrees rotation.
+*	Visualizer: Ensure multi-thread safety
+*	bugfix for noteResetVideoLocked
+*	SystemUI: Port pixel navigation bar
+*	Optimize IncallUI delay for voice calls
+*	Add our favourite fonts in AOSP FontEngine [2/2]
+*	Implement edge long swipe gesture [1/3]
+*	AlarmManagerService: Fix FWR before boot completed
+*	MediaCodec: Release lock before calling onFrameRendered()
+*	Sanitize Bluetooth device names without regex
+*	Merge branch 'lineage-17.1' of https://github.com/LineageOS/android_frameworks_base into ten
+*	SystemUI: QS: Add Gaming mode tile
+*	Battery light: 100% charged level (1/3)
+*	SystemUI: Improve Samsung clock layout
+*	TypeClockController: Make it compile with new plugin API
+*	Revert "Position "At a Glance" on type clock below status bar."
+*	Position "At a Glance" on type clock below status bar.
+*	KeyguardClockPositionAlgorithm: Allow forcing default clockY positioning
+*	Introduce bold digital and Samsung like lockscreen clocks
+*	Keyguard: add binary custom clock face
+*	Revert "Drop Type clock face."
+*	Revert "Drop final remnants of Type clock face"
+*	Disable/Enable screenshot sound [1/2]
+*	Hide pill in full gestural nav mode [1/3]
+*	AppOps: Do not prune apps that are not present
+*	Add make_unique function for jni
+*	SystemUI: fix layout of qs header info
+*	SystemUI: Tweak QS header & footer size
+*	Accents: add MIUI accent color
+*	Accents: Add new accent colors for Q Change-Id: I738ef4eb17483c3c78b84672db08b0e6e102831d
+*	update qs blur keyguard check
+*	Blur behind quick settings thanks to @Dil3mm4 utility which allows to take screenshots and blur them
+*	ImageUtilities: an utility that it's able to take screenshots via screenshotSurface and to blur images via blurImage
+*	SystemUI: assist: disable old Assistant animations
+*	Add colors to assistant animation
+*	fwb: Increase Longshot timeout to 2 seconds
+*	base: Port extended screenshot function from OOS
+*	base: Add new VoLTE icon @gwolf2u: tune VoLTE icon size
+*	webview_packages: fix incorrect signatures
+*	webview_packages: correct signature definition for Chrome Stable
+*	webview_packages: prefer the more powerful webview packages
+*	android.view: Speed things up!!
+*	SystemUI: remove unnecessary recent apps transition
+*	Support UnifiedNlp (microG)
+*	call log limit 500=>5000
+*	Fix to handle duplicate call id for conference call
+*	WindowManagerService: earlier boot animation exit
+*	ViewConfiguration: set scroll friction to 0.006f
+*	config: longer wifi scan interval
+*	Add national roaming for o2 & E-Plus in germany
+*	BrightnessDialog: dismiss on focus lost
+*	SystemUI: force a clock update if the screen is turned back on
+*	core: res: config: brightness tweaks
+*	core: res: config: shorten network transition timeout
+*	Restore cache clean up code in PackageManagerService
+*	QS: Battery saver tile improvements
+*	SystemUI: fix MediaProjection cast crash
+*	Ask pin when tapping Cellular tile on secure lockscreen
+*	CarrierConfigManager: enable LTE+ icon by default
+*	Partially Revert "Don't update dark boot setting onStart"
+*	SystemUI: Hide back icon when screen pinned and gestural mode enabled
+*	ScreenPinningRequest: Fix recents button not appearing
+*	ActivityManagerService: Disallow requestSystemServerHeapDump on non-eng builds
+*	SystemUI: Fix flickering issue when live wallpaper is showing on aod/pulsing
+*	ActivityManagerService: dont be so hectic on cpu battery stats
+*	ActivityManager: fix npe in ProcessRecord
+*	core: ViewRootImpl: Stop the 'requestLayout() improperly called' logspam
+*	AccountManagerService: Fix ConnectionRecord Leak
+*	Clear all lingering notifications when network is disconnected
+*	view: add null check for dispatch touch view
+*	InputMethodManager: Fixed memory leak when windowDismissed
+*	frameworks: Fix null pointer Issue
+*	WindowStateAnimator: Fix NPE with wallpaper offset
+*	Keyguard: reduce bottom text size
+*	base: change default list_divider_color_dark
+*	Add DeskClock in powersave whitelist
+*	Recents: Fix NPE while changing themes
+*	SystemUI: restart timeout causes black screen
+*	ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+*	Telephony: Don't crash for too long baseband version
+*	base: SystemUI: reduce padding between clock and notification area
+*	Settings:Bugfix for NPE, Only valid screen power consumption need to smear
+*	SystemUI: Fix SystemUI Crash
+*	base: Q seekbar: Set opacity for the seekbar when it's not interactive
+*	Fix notification shows wrong question
+*	SmoothSpinners: Makes the loading "spinner" animation smoother
+*	BackupAgent: add backup shared mode
+*	GlobalActions: Reduce padding between icon and text
+*	Keyguard: lock icon improvements
+*	Fix Photosphere/Camera FCs
+*	NetworkStatsHistory: Prevent IllegalArgumentException
+*	Framelayout: Fix NPE when view is missing
+*	SystemUI: Keyguard: Check for a null errString
+*	base: Use MD2 icon for missed call notification
+*	wm: Remove status bar permission checks
+*	Add START_ACTIVITIES_FROM_BACKGROUND on phone priv-app whitelist
+*	Add missing INTERACT_ACROSS_USERS_FULL permission
+*	Add "android.permission.READ_PHONE_STATE" to manifest
+*	Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation
+
+
 Changelog on 19/2/2020:
 * SystemUI: Add VoLTE switch in tuner
 * SystemUI: Fix VoLTE icon color on Light statusbar
