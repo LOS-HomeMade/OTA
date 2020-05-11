@@ -1,3 +1,69 @@
+Changelog on 11/5/2020:
+* "SystemUI: Use VoLTE icon from OOS"
+*  Fix permissons for ContactsProvider2
+*  Fix Fi permissions
+*  Fix Android 7.0 GApps permisions which were causing F/C
+*  Reset permission when network becomes default again.
+*  SettingsProvider: Resolve package name that requires permission
+*  PackageManagerService: Avoid NPE in matchComponentForVerifier
+*  Permissions: allow to grant permissions to more apps on dirty flash
+*  Grant Wellbeing the SUSPEND_APPS perm if already declared
+*  SystemUI: Show 4G instead of LTE switch
+*  SystemUI: Redesign volume dialog
+*  base: Persistent settings icon on qs panel for 10.x
+*  Volume panel: Adjust the left padding
+*  base: SystemUI: rounded_ripple must use corner_size
+*  base: Redo expanded volume panel for 10.x
+*  SystemUI: allow devices override audio panel location
+*  Revert "SystemUI: runtime configurable audio panel location"
+*  Revert "base: Redo expanded volume panel for 10.x"
+*  Revert "Code improvements for expandable volume panel"
+*  Revert "ExpandingVolPanel: Show only Music Stream when collapsed."
+*  Merge branch 'lineage-17.1' of https://github.com/LineageOS/android_frameworks_base into ten
+*  Add isApplicationOnUicc API
+*  Merge tag 'android-10.0.0_r35' into lineage-17.1-android-10.0.0_r35
+*  base: Add OOS style switches
+*  Multiply the total memory by mem_unit
+*  base: SystemUI: Switch to OOS drawables for navbar icons
+*  PowerManager: Move custom API definition to end of AIDL
+*  fw/b: adb network tile: Don't make ConnectionManager get calls from callback
+*  fw/b data restrictions: Don't call getNetworkCapabilities() in the callback
+*  base: SystemUI: fix NPE in PowerShareTile
+*  Add isApplicationOnUicc API
+*  GlobalActions: Fix Airplane mode toggle
+*  base: SystemUI: add qs powershare tile
+*  FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern()
+*  Fix WebView vulnerability by disallowing file access
+*  Clean up duplicated uses-permission
+*  Camera: Rename prevent power key permission
+*  fixup! lockscreen: Add support for showing unlock screen directly
+*  FODCircleView: Show while bouncer is requesting Pattern or PIN
+*  Revert "[3/4] Port face unlock feature"
+*  Revert "SystemUI: Allow listening for face only on pin/pass view"
+*  Automatic translation import
+*  Fix a racing condition in ProcessRecord
+*  Do not clean up ART profiles during OTAs
+*  ZygoteInit: Clean up class preloading
+*  Fix bugs regarding system app cannot write visible path
+*  AppStandbyController: Only check user standby setting
+*  AndroidRuntime: Remove support for image classes
+*  SystemUI: Change QS Customizer to black for dark mode
+*  Implement R style notification section headers
+*  fixup! SystemUI: Allow translucent notifications background on lockscreen [1/3]
+*  Multiply the total memory by mem_unit
+*  SystemUI: Allow translucent notifications background on lockscreen [1/3]
+*  power: Re-introduce custom charging sounds
+*  NavigationBarView: Fix cursor keys visibility with gestural mode enabled
+*  SystemUI: Expose camera, location and microphone icons to Tuner
+*  Revert "SystemUI: Advanced location tile"
+*  fw/b: Prevent double interface restriction remove on interface name change
+*  Do not clean up ART profiles during OTAs
+*  AODTile: Explicitely disable long clicks
+*  AODTile: disable tile when power save mode is on
+*  base: SystemUI: add qs AOD tile
+*  ReadingModeTile: Go away if wellbeing app is enabled
+*  Need to check current user when triggering notification lights
+
 Changelog on 14/4/2020:
 * Settings: Brand new Settings Homepage Icons! 
 * Settings: Gesture Navigation: Configure the height of back gesture 
