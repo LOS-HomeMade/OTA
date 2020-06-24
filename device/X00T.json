@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1230764400,
-      "filename": "ota-package.zip",
-      "id": "5eb63bbbe01eeed093cb22bb8f5acdc3",
-      "romtype": "homemade",
-      "size": 314572800,
-      "url": "https://example.com/ota-package.zip",
-      "version": "17.1"
+      "datetime": 1592924153,
+      "filename": "LineageX-10.0-20200623-X00T-v1.1.zip",
+      "id": "971000d4944de00b35258fd146057c23",
+      "romtype": "Official",
+      "size": 750570700,
+      "url": "https://sourceforge.net/projects/lineage-x/files/X00T%5BD%5D/LineageX-10.0-20200623-X00T-v1.1.zip/download?",
+      "version": "LineageX-10.0-20200623-X00T-v1.1"
     }
   ]
 }

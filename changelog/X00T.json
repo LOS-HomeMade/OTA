@@ -1,3 +1,82 @@
+Changelog on 23/06/2020:
+* /4] Port face unlock feature
+*  StitchImageUtility: Fix editor on multi user
+*  fwb: Port long screenshot implementation from Asus
+*  Revert "base: Port extended screenshot function from OOS" nuke longshot
+*  SystemUI: Fix QS Detail Header
+*  Add a LineageOS clock
+*  AODTile: Rewrite AOD setting handling
+*  SystemUI: set no hint overlay to highest priority
+*  Merge branch 'lineage-17.1' of https://github.com/Lineageos/android_frameworks_base into HEAD
+*  Revert "ScreenshotSound: Fix playing screenshot's sound when camera's sounds off."
+*  SystemUI: Long press Caffeine for infinite duration
+*  Merge branch 'lineage-17.1' of https://github.com/Lineageos/android_frameworks_base into HEAD
+*  SystemUI: Resolve faulty keyguard clock logs outputs
+*  SystemUI: Adapt screenshot sound to ringer modes
+*  [BACKPORT] Config of LTE signal strength default value remove SNR
+*  SystemUI: Fix pink progress animation color in expanded Wi-Fi tile
+*  Merge tag 'android-10.0.0_r37' into staging/lineage-17.1_merge-android-10.0.0_r37
+*  SystemUI: Make clock truly invisible
+*  SystemUI: QQS brightness: get container padding directly
+*  Revert "base: SystemUI: qs quickbar columns config"
+*  SystemUI: Don't forcefully convert wallpaper to SRGB
+*  Implement quick QS brightness slider [1/3]
+*  FODCircleView: Add support for pressed fod layer
+*  Revert "FODCircleView: dispatch onPress to HAL only after dimming is applied"
+*  MTP: Fix MTP SD card issue
+*  SystemUI: Fix for auto brightness icon being shown when disabled
+*  AlarmManagerService.setKernelTime: fix incorrect limit.
+*  Check user unlocked before write to /data/system_ce/0/snapshots
+*  Fix: Media volume bar indicates a wrong value
+*  Implement hide gestural navigation hint bar [1/5]
+*  SystemUI: Do not convert application name to ISO-8859-15
+*  SystemUI: support black theme for dark mode [1/4]
+*  SystemUI: add top exclusion to the back gesture
+*  SystemUI: Brightness slider: Always show the brightness icon
+*  Fix other lights when backlight uses SurfaceController API
+*  translate="false" -> translatable="false"
+*  Add Light/Dark theme for bugreport warning dialog
+*  Fix bugreport warning dialog
+*  SystemUI: Fix alignment glitch with brightness mirror
+*  Automatic translation import
+*  Tuner: Remove most keys from blacklist
+*  TunerServiceImpl: Prevent Lineage keys from tuner reset
+*  SystemUI: Prevent loop with display timeout
+*  fixup! fixup! lockscreen: Add support for showing unlock screen directly
+*  Allow screen unpinning on devices without navbar
+*  SystemUI: Initialize proper visibility for notification icons container
+*  Cache pin algorithms in PinSet
+*  Cache the global proxy to avoid fetching it for every request
+*  Cache KeyStoreService
+*  (Point) Only calculate sin and cos once
+*  SystemUI: Bring back QS Drag Handle
+*  SystemUI: Remove GarbageMonitor tile
+*  QSTileBaseView: Adjust alpha of disabled tile color
+*  SystemUI: Tint QSTile icon with accent color
+*  LTE+ indicator not shown when attached to CA network
+*  Grant storage permission to Google's Markup
+*  fix clock derp
+*  Typeface Clock: update thumbnail
+*  clocks: Introduce MNML clocks
+*  clock: add Sammy highlight clock
+*  clock: Add Oroño clock
+*  base: Add SFUNY clock
+*  TypeClock: Properly calculate the height
+*  base: Add Divided Lines Clock
+*  KeyguardSliceView: Align as per the Clock Style
+*  TypeClock: Align owner info as per the clock style
+*  KeyguardSliceView: adjust placement when Type clock is in use
+*  Revert "Blur behind quick settings"
+*  Revert "update qs blur keyguard check"
+*  Revert "ImageUtilities: an utility that it's able to take screenshots via screenshotSurface and to blur images via blurImage"
+*  VolumeDialogControllerImpl: Check for internal audio recording support
+*  fwb: Add support for internal audio recording
+*  SystemUI: Add required priv-app permissions
+*  ScreenshotSound: Fix playing screenshot's sound when camera's sounds off.
+*  Revert "SystemUI: Use VoLTE icon from OOS"
+*  camera: Support exposing aux camera to apps
+*  LTE+ indicator not shown when attached to CA network
+
 Changelog on 11/5/2020:
 * "SystemUI: Use VoLTE icon from OOS"
 *  Fix permissons for ContactsProvider2
