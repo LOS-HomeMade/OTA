@@ -1,5 +1,6 @@
 Changelog on 23/06/2020:
-* /4] Port face unlock feature
+*  X00T: Update coral build fingerprint to QQ3A.200605.001 6392402
+*  Port face unlock feature
 *  StitchImageUtility: Fix editor on multi user
 *  fwb: Port long screenshot implementation from Asus
 *  Revert "base: Port extended screenshot function from OOS" nuke longshot
