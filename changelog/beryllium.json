@@ -1,0 +1,14 @@
+Device Changelog on 28/06/2020:
+*used pixel fp to bypass safetynet
+*Enable ringtone picker by default
+*Update notch cutout configs from P
+*sdm845-common: overlay: Import vibration overlays from marlin 
+*sdm845-common: overlay: Improve face unlock for non-popup camera 
+*sdm845-common: Add com.motorola.faceunlock package to aux cam list 
+*Enable status bar burn-in protection
+*Switch to QTI BT stack 
+*media: Fix rank of QC OMX components 
+*Enable RCS
+*Compile libhwui in perf mode
+*configure optimal cpusets
+
